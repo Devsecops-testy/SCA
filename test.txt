@@ -1,0 +1,32 @@
+
+# Test cases for Gitleaks custom rules
+
+# Putty Key Content
+PuTTY-User-Key-File-2: ssh-rsa
+Encryption: aes256-cbc
+Comment: imported-openssh-key
+Private-Lines: 14
+Private-MAC: abcd1234abcd5678
+
+# K8s Environment YAML
+apiVersion: v1
+kind: Pod
+spec:
+  containers:
+    - name: app
+      env:
+        - name: mypassword
+          value: "SuperSecret123!"
+
+# Token Example
+token = "mytokenvalue123456"
+
+# CloudFormation
+SecretStringTemplate: "{mysecretvalue123}"
+
+# Encryption Key
+encryption_key = "abcdef1234567890"
+
+# YAML tuple password
+password:
+  value: "passwordFromYAML"
