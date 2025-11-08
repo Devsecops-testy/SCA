@@ -6,7 +6,9 @@
     <groupId>com.example</groupId>
     <artifactId>my-vulnerable-project</artifactId>
     <version>1.0-SNAPSHOT</version>
-
+#comment added to this file
+######################################
+         
     <dependencies>
         <!-- Log4j Core - آسیب‌پذیر به Log4Shell -->
         <dependency>
@@ -58,3 +60,4 @@
         </plugins>
     </build>
 </project>
+
