@@ -42,7 +42,7 @@
         <dependency>
             <groupId>org.bouncycastle</groupId>
             <artifactId>bcprov-jdk15on</artifactId>
-            <version>1.64</version> <!-- نسخه آسیب‌پذیر -->
+            <version>1.70</version> <!-- نسخه آسیب‌پذیر -->
         </dependency>
     </dependencies>
 
