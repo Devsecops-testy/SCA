@@ -21,7 +21,7 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-core</artifactId>
-            <version>5.3.9</version> <!-- نسخه آسیب‌پذیر -->
+            <version>5.3.39</version> <!-- نسخه آسیب‌پذیر -->
         </dependency>
 
         <!-- Jackson Databind - آسیب‌پذیری های متعددی در سریال‌سازی و deserialization -->
