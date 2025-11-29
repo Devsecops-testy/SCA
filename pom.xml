@@ -35,7 +35,7 @@
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-collections4</artifactId>
-            <version>4.0</version> <!-- نسخه آسیب‌پذیر -->
+            <version>4.5.0</version> <!-- نسخه آسیب‌پذیر -->
         </dependency>
 
         <!-- Bouncy Castle - آسیب‌پذیری در cryptography -->
